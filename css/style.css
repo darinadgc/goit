@@ -1,0 +1,96 @@
+* {	padding: 0;margin: 0;box-sizing: border-box;}
+body {
+	font-family: 'Montserrat', sans-serif;
+padding: 4.5%;
+background: #F5F7FA;line-height: 24px;
+color: #595959;
+	font-size: 14px;
+	font-weight: 400;
+}h4 {
+	margin: 17px 0 2px;
+}
+.wrapper {
+	background: #fff;
+	display: flex;
+max-width: 1280px;
+margin: 0 auto;}
+.sidebar {
+	background: #1E2939;
+	width: 370px;
+	padding: 40px 0 40px;
+	height: max-content;
+}.my-photo {text-align: center;
+}
+.my-photo img{
+	width: 100%;}
+.main-container {
+	padding: 60px 40px;}
+ h3{
+		margin: 36px 0 7px;
+	font-size: 22px;}
+.sidebar h3,.contacts-link-type{
+	color: #FFF;}
+	
+.about-me-container {
+	padding: 13% 10%;}
+.contacts-link {
+color: #8F949C;
+}.skills,.contacts-link {
+	font-size: 14px;}
+ .contacts-link-type {
+margin-right: 10px;
+}
+.contacts-link {
+font-weight: 400;}
+h4,.span {
+	color: #000;
+}
+
+.span {
+	font-weight: 400;
+}
+.tech-skills-container {
+		margin: 35px 0;	}
+
+	.skills {
+		margin: 35px 0;
+	color: #F0F1F2;
+		padding-left: 15px;	}
+	.skills li::marker,.tech-name {
+	color: #FF6B08;
+}	
+.date {
+	color: #A8A8A8;
+}
+
+
+h1,h2,h3,h4,h5,.contacts-link-type,.projects-item,.education p {
+font-weight: 700;
+}.projects-item {
+margin-left: 17px;
+}.projects-container {
+margin-bottom: 55px;
+}
+.education p {
+	font-size: 16px;
+}
+	.name {
+	margin: 3% 0;
+}
+@media screen and (max-width: 612px) {
+body { 
+     padding: 0;
+    }
+
+}@media screen and (max-width: 580px) {
+.about-me-container {
+	padding: 5% 1% 6% 6%;
+}
+.my-photo img{
+	width: 80%;}
+}@media screen and (max-width: 530px) {
+.wrapper{
+	display: block;}
+}.sidebar {
+    margin: 0 auto;
+}
