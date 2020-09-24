@@ -83,12 +83,12 @@ margin-bottom: 55px;
 }
 @media screen and (max-width: 612px) {
 body { 
-     padding: 0;background:none;
+     padding: 0;background:#fff;
     }
 
 }@media screen and (max-width: 580px) {
 .about-me-container {
-	padding: 5% 1% 6% 6%;
+	padding: 5% 1% 6% 6%;width: 100%;
 }
 .my-photo img{
 	width: 80%;}
@@ -96,5 +96,5 @@ body {
 .wrapper{
 	display: block;}
 }.sidebar {
-    margin: 0 auto;width: 100%;
+    margin: 0 auto;
 }
