@@ -1,12 +1,7 @@
-*{padding:0;margin:0;border:0}*,:after,:before{box-sizing:border-box}:active,:focus{outline:none}a:active,a:focus{outline:none}aside,footer,header,nav{display:block}body,html{height:100%;width:100%;font-size:100%;line-height:36px;font-size:26px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%}.container{width:80%;margin:0 auto}a,button,input,textarea{font-family:inherit}input::-ms-clear{display:none}.header__burger,button{cursor:pointer}button::-moz-focus-inner{padding:0;border:0}a,a:visited{text-decoration:none}a:hover{text-decoration:none}ul li{list-style:none}img{vertical-align:top}
-
-
-
 * {	padding: 0;margin: 0;box-sizing: border-box;}
 body {
 	font-family: 'Montserrat', sans-serif;
-padding: 4.5%;
-background: #F5F7FA;line-height: 24px;
+border: 40px solid #F5F7FA;line-height: 24px;
 color: #595959;
 	font-size: 14px;
 	font-weight: 400;
@@ -20,7 +15,7 @@ max-width: 1280px;
 margin: 0 auto;}
 .sidebar {
 	background: #1E2939;
-	width: 370px;
+	max-width: 370px;
 	padding: 40px 0 40px;
 	height: max-content;
 }.my-photo {text-align: center;
@@ -81,18 +76,18 @@ margin-bottom: 55px;
 	.name {
 	margin: 3% 0;
 }
-@media screen and (max-width: 612px) {
+@media screen and (max-width: 649px) {
 body { 
-     padding: 0;background:#fff;
+     border: none;
     }
 
 }@media screen and (max-width: 580px) {
 .about-me-container {
-	padding: 5% 1% 6% 6%;width: 100%;
+	padding: 5% 5% 6% 10%;
 }
 .my-photo img{
 	width: 80%;}
-}@media screen and (max-width: 530px) {
+}@media screen and (max-width: 567px) {
 .wrapper{
 	display: block;}
 }.sidebar {
