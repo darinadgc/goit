@@ -92,4 +92,8 @@ body {
 	display: block;}
 }.sidebar {
     margin: 0 auto;
+}a[href^="mailto:"] {
+  font-size: 16px;
+  line-height: 32px;
+  color: #000000;
 }
